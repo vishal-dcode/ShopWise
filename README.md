@@ -1,0 +1,2 @@
+# Firebase Todo App
+ Firebase Todo app is a simple web application that allows users to create and manage tasks or to-dos. The app is built using Firebase, a mobile and web application development platform, and it uses Firebase's Realtime Database to store the tasks in real-time. Users can add, edit, and delete tasks, and the app also features basic authentication using Firebase's Authentication service. The code for the app can be found on GitHub and it serves as a good example for those looking to learn how to build real-time applications using Firebase.
