@@ -4,7 +4,7 @@ TaskWise is a simple shopping list application built using the Firebase Realtime
 
 ## Demo
 
-You can try out TaskWise by visiting the live demo: [https://example.com/]()
+You can try out TaskWise by visiting the live demo: [CLICK HERE](https://taskwise-todo.netlify.app/)
 
 ![Preview](https://i.ibb.co/G9wDMn0/Preview.png)
 
