@@ -1,2 +1,35 @@
-# Firebase Todo App
- Firebase Todo app is a simple web application that allows users to create and manage tasks or to-dos. The app is built using Firebase, a mobile and web application development platform, and it uses Firebase's Realtime Database to store the tasks in real-time. Users can add, edit, and delete tasks, and the app also features basic authentication using Firebase's Authentication service. The code for the app can be found on GitHub and it serves as a good example for those looking to learn how to build real-time applications using Firebase.
+# TaskWise
+
+TaskWise is a simple shopping list application built using the Firebase Realtime Database. It allows users to add and remove items to their shopping list in real-time.
+
+## Demo
+
+You can try out TaskWise by visiting the live demo: [https://example.com/]()
+
+![Preview](https://i.ibb.co/G9wDMn0/Preview.png)
+
+## Contribute
+
+Contributions to TaskWise are always welcome! If you'd like to contribute, please follow these steps:
+
+1. Fork the repository
+2. Create a new branch for your feature/bugfix (`git checkout -b my-new-feature`)
+3. Make your changes and commit them (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create a new pull request
+
+## Use as Mobile App
+
+You can also clone TaskWise and use it as a mobile app by adding it to your home screen.
+
+1. Open TaskWise in your mobile browser
+2. Tap the "Share" icon
+3. Tap "Add to Home Screen"
+4. Give the app a name and tap "Add"
+5. TaskWise will now appear on your home screen like any other app!
+
+If you found this project helpful or interesting, please consider giving it a star ⭐️ on GitHub!
+
+---
+
+Made with ❤️ by [Vishal](https://github.com/vishal-dcode)

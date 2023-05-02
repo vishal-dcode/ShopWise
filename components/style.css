@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--ff-primary);
+}
+:root {
+  --ff-primary: "Figtree", sans-serif;
+  --ff-secondary: "Playfair Display", sans-serif;
+
+  --clr-bg: #eeeeee;
+  --clr-btn: #00b963;
+  --clr-card: #f9f9f9;
+  --clr-bg-ctr: #6259ff;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: var(--clr-bg);
+}
+#main {
+  position: relative;
+  width: 350px;
+  height: 750px;
+  background-color: var(--clr-bg);
+  border: 1px solid #cecece;
+  border-radius: 1rem;
+  isolation: isolate;
+  overflow-x: hidden;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 1fr 1fr;
+  user-select: none;
+}
+#main::after {
+  content: "";
+  position: absolute;
+  background-color: var(--clr-bg-ctr);
+  height: 500px;
+  aspect-ratio: 1;
+  border-radius: 100vw;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -10;
+}
+#main .top-ctr {
+  width: 280px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  bottom: 2.5rem;
+  margin-inline: auto;
+}
+#main .bottom-ctr {
+  margin-inline: auto;
+  width: 280px;
+}
+.profile-pic {
+  height: 100px;
+  aspect-ratio: 1;
+  border-radius: 100vw;
+}
+.profile-pic img {
+  height: 100%;
+  transform: translateY(2rem);
+}
+.form-wrapper {
+  background-color: var(--clr-card);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  width: 100%;
+}
+.form-wrapper div {
+  padding: 2.8rem 1rem 0.2rem;
+}
+input {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0;
+  background-color: transparent;
+  text-align: center;
+  width: 100%;
+  outline: none;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+button {
+  cursor: pointer;
+  outline: transparent;
+  border: 0;
+  border-top: 1px dashed #000;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 800;
+  padding: 1rem;
+  background-color: var(--clr-btn);
+  width: 100%;
+}
+button:hover {
+  background-color: #008145;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+}
+ul li {
+  cursor: pointer;
+  text-align: center;
+  flex: 1;
+  list-style-type: none;
+  border: 1px solid #000;
+  border-radius: 100vw;
+  padding: 0.5rem 1rem;
+}
+ul li:hover {
+  background-color: #ffc8c8;
+  border: 1px solid #ff5555;
+  color: #ff5555;
+}
+
+@media (max-width: 420px) {
+  body {
+    height: 100%;
+  }
+  #main {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+  }
+}
