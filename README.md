@@ -1,16 +1,16 @@
-# TaskWise
+# ShopWise
 
-TaskWise is a simple shopping list application built using the Firebase Realtime Database. It allows users to add and remove items to their shopping list in real-time.
+ShopWise is a simple shopping list application built using the Firebase Realtime Database. It allows users to add and remove items to their shopping list in real-time.
 
 ## Demo
 
-You can try out TaskWise by visiting the live demo: [CLICK HERE](https://taskwise-todo.netlify.app/)
+You can try out ShopWise by visiting the live demo: [CLICK HERE](https://taskwise-todo.netlify.app/)
 
 ![Preview](https://i.ibb.co/G9wDMn0/Preview.png)
 
 ## Contribute
 
-Contributions to TaskWise are always welcome! If you'd like to contribute, please follow these steps:
+Contributions to ShopWise are always welcome! If you'd like to contribute, please follow these steps:
 
 1. Fork the repository
 2. Create a new branch for your feature/bugfix (`git checkout -b my-new-feature`)
@@ -20,13 +20,13 @@ Contributions to TaskWise are always welcome! If you'd like to contribute, pleas
 
 ## Use as Mobile App
 
-You can also clone TaskWise and use it as a mobile app by adding it to your home screen.
+You can also clone ShopWise and use it as a mobile app by adding it to your home screen.
 
-1. Open TaskWise in your mobile browser
+1. Open ShopWise in your mobile browser
 2. Tap the "Share" icon
 3. Tap "Add to Home Screen"
 4. Give the app a name and tap "Add"
-5. TaskWise will now appear on your home screen like any other app!
+5. ShopWise will now appear on your home screen like any other app!
 
 If you found this project helpful or interesting, please consider giving it a star ⭐️ on GitHub!
 
